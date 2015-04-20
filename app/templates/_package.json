@@ -1,5 +1,5 @@
 {
-  "name": "flux-riot-todo",
+  "name": "todo-flux-riot",
   "version": "0.1.0",
   "description": "TODO example using flux-riot",
   "author": "mingliangfeng@gmail.com",
@@ -23,15 +23,17 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.3.0",
-    "harmonize": "^1.4.0"
+    "harmonize": "^1.4.0",
+    "jasmine-pit": "^2.0.2"
   },
   "scripts": {
     "start": "gulp",
     "test": "gulp jest"
   },
   "dependencies": {
-    "flux-riot": "^0.1.0",
     "object-assign": "^2.0.0",
-    "keymirror": "^0.1.1"
+    "keymirror": "^0.1.1",
+    "flux-riot": "^0.2.0",
+    "riot": "^2.0.14"
   }
 }
